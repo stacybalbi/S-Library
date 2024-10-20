@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "uGW+z/g7SFw=",
+  "dgSpecHash": "JRgsuNsxPgE/due+PQjqN0XBE5E8hGYrlzsSZursqL029RYj+ScuDPq2a2eAncfEDXQr5wxvi1AN42VO6X2PSQ==",
   "success": true,
   "projectFilePath": "/Users/stacybalbi/Projects/S-Library/SLibrary.API/SLibrary.API.csproj",
   "expectedPackageFiles": [
@@ -23,11 +23,14 @@
     "/Users/stacybalbi/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.data.sqlclient/5.1.5/microsoft.data.sqlclient.5.1.5.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.data.sqlclient.sni.runtime/5.1.1/microsoft.data.sqlclient.sni.runtime.5.1.1.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.data.sqlite.core/8.0.10/microsoft.data.sqlite.core.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore/8.0.10/microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.10/microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.10/microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.design/8.0.10/microsoft.entityframeworkcore.design.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.relational/8.0.10/microsoft.entityframeworkcore.relational.8.0.10.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.sqlite/8.0.10/microsoft.entityframeworkcore.sqlite.8.0.10.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.sqlite.core/8.0.10/microsoft.entityframeworkcore.sqlite.core.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.sqlserver/8.0.10/microsoft.entityframeworkcore.sqlserver.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.tools/8.0.10/microsoft.entityframeworkcore.tools.8.0.10.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.extensions.apidescription.server/6.0.5/microsoft.extensions.apidescription.server.6.0.5.nupkg.sha512",
@@ -57,6 +60,10 @@
     "/Users/stacybalbi/.nuget/packages/microsoft.visualstudio.setup.configuration.interop/3.2.2146/microsoft.visualstudio.setup.configuration.interop.3.2.2146.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.win32.systemevents/7.0.0/microsoft.win32.systemevents.7.0.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/sqlitepclraw.bundle_e_sqlite3/2.1.6/sqlitepclraw.bundle_e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/sqlitepclraw.core/2.1.6/sqlitepclraw.core.2.1.6.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/sqlitepclraw.lib.e_sqlite3/2.1.6/sqlitepclraw.lib.e_sqlite3.2.1.6.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/sqlitepclraw.provider.e_sqlite3/2.1.6/sqlitepclraw.provider.e_sqlite3.2.1.6.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/swashbuckle.aspnetcore/6.4.0/swashbuckle.aspnetcore.6.4.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/swashbuckle.aspnetcore.swagger/6.4.0/swashbuckle.aspnetcore.swagger.6.4.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/swashbuckle.aspnetcore.swaggergen/6.4.0/swashbuckle.aspnetcore.swaggergen.6.4.0.nupkg.sha512",
@@ -105,7 +112,7 @@
       "code": "NU1603",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "SLibrary.API depends on Microsoft.Build.Tasks.Core (>= 17.8.0) but Microsoft.Build.Tasks.Core 17.8.0 was not found. An approximate best match of Microsoft.Build.Tasks.Core 17.8.3 was resolved.",
+      "message": "SLibrary.API depende de Microsoft.Build.Tasks.Core (>= 17.8.0), pero no se encontró Microsoft.Build.Tasks.Core 17.8.0. Se resolvió una mejor coincidencia aproximada de Microsoft.Build.Tasks.Core 17.8.3.",
       "libraryId": "Microsoft.Build.Tasks.Core",
       "targetGraphs": [
         "net8.0"

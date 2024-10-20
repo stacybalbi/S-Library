@@ -12,7 +12,7 @@ namespace SLibrary.DataModel
         {
       
             services.AddDbContext<MainDbContext>(opt =>
-                opt.UseSqlServer(configuration.GetConnectionString("MainDatabase"),
+                opt.UseSqlite(configuration.GetConnectionString("MainDatabase"),
                 b => b.MigrationsAssembly("SLibrary.Api")));
 
             return services;
