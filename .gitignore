@@ -10,6 +10,24 @@
 *.userosscache
 *.sln.docstates
 
+#others
+bin/
+obj/
+**/*.user
+**/*.rsuser
+**/*.suo
+**/*.cache
+**/*.ide
+**/*.ilk
+**/*.log
+**/*.pdb
+**/*.tmp
+**/*.vscode
+
+#System files
+.DS_Store
+Thumbs.db
+
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
 
