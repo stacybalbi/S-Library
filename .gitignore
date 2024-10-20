@@ -11,8 +11,8 @@
 *.sln.docstates
 
 #others
-bin/
-obj/
+/bin/
+/obj/
 **/*.user
 **/*.rsuser
 **/*.suo
