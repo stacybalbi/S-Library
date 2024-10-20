@@ -4,11 +4,13 @@
     <TargetFramework>net8.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+ <GenerateAssemblyInfo>false</GenerateAssemblyInfo>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ServiciosMepyd.Api' " />
   <PropertyGroup Condition=" '$(RunConfiguration)' == 'IIS Express' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'SLibrary.Api' " />
   <ItemGroup>
+    <PackageReference Include="Microsoft.Build.Tasks.Core" Version="17.8.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.10">
