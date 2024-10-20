@@ -11,12 +11,18 @@
     <None Remove="Context\Extensions\" />
     <None Remove="Entities\" />
     <None Remove="Enums\" />
+    <None Remove="Entities\SLibrary\" />
+    <None Remove="EntityConfiguration\" />
+    <None Remove="EntityConfiguration\SLibrary\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Context\" />
     <Folder Include="Context\Extensions\" />
     <Folder Include="Entities\" />
     <Folder Include="Enums\" />
+    <Folder Include="Entities\SLibrary\" />
+    <Folder Include="EntityConfiguration\" />
+    <Folder Include="EntityConfiguration\SLibrary\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SLibrary.Core\SLibrary.Core.csproj" />

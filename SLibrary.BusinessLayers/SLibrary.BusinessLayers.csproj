@@ -13,6 +13,11 @@
     <None Remove="Services\" />
     <None Remove="Validators\" />
     <None Remove="Interfaces\Base\" />
+    <None Remove="Dtos\SLibrary\" />
+    <None Remove="Interfaces\SLibrary\" />
+    <None Remove="Mappers\SLibrary\" />
+    <None Remove="Validators\SLibrary\" />
+    <None Remove="Services\SLibrary\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Dtos\" />
@@ -21,6 +26,11 @@
     <Folder Include="Services\" />
     <Folder Include="Validators\" />
     <Folder Include="Interfaces\Base\" />
+    <Folder Include="Dtos\SLibrary\" />
+    <Folder Include="Interfaces\SLibrary\" />
+    <Folder Include="Mappers\SLibrary\" />
+    <Folder Include="Validators\SLibrary\" />
+    <Folder Include="Services\SLibrary\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SLibrary.Core\SLibrary.Core.csproj" />

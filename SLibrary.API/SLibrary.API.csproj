@@ -6,8 +6,8 @@
     <ImplicitUsings>enable</ImplicitUsings>
   </PropertyGroup>
 
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
-  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'ServiciosMepyd.Api' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'IIS Express' " />
   <ItemGroup>
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.4.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.10" />
@@ -22,9 +22,11 @@
   <ItemGroup>
     <None Remove="Controllers\Base\" />
     <None Remove="SLibrary.API.http" />
+    <None Remove="Controllers\SLibrary\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Controllers\Base\" />
+    <Folder Include="Controllers\SLibrary\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SLibrary.Core\SLibrary.Core.csproj">

@@ -1032,15 +1032,20 @@
           "Microsoft.AspNetCore.App"
         ]
       },
-      "System.CodeDom/4.4.0": {
+      "System.CodeDom/8.0.0": {
         "type": "package",
         "compile": {
-          "ref/netstandard2.0/_._": {
+          "lib/net8.0/System.CodeDom.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.0/System.CodeDom.dll": {}
+          "lib/net8.0/System.CodeDom.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
         }
       },
       "System.Collections.Immutable/6.0.0": {
@@ -1663,7 +1668,9 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "FluentValidation": "11.10.0",
-          "FluentValidation.DependencyInjectionExtensions": "11.10.0"
+          "FluentValidation.DependencyInjectionExtensions": "11.10.0",
+          "Microsoft.EntityFrameworkCore": "8.0.10",
+          "System.CodeDom": "8.0.0"
         },
         "compile": {
           "bin/placeholder/SLibrary.Core.dll": {}
@@ -3509,25 +3516,33 @@
         "swashbuckle.aspnetcore.swaggerui.nuspec"
       ]
     },
-    "System.CodeDom/4.4.0": {
-      "sha512": "2sCCb7doXEwtYAbqzbF/8UAeDRMNmPaQbU2q50Psg1J9KzumyVVCgKQY8s53WIPTufNT0DpSe9QRvVjOzfDWBA==",
+    "System.CodeDom/8.0.0": {
+      "sha512": "WTlRjL6KWIMr/pAaq3rYqh0TJlzpouaQ/W1eelssHgtlwHAH25jXTkUphTYx9HaIIf7XA6qs/0+YhtLEQRkJ+Q==",
       "type": "package",
-      "path": "system.codedom/4.4.0",
+      "path": "system.codedom/8.0.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "Icon.png",
         "LICENSE.TXT",
         "THIRD-PARTY-NOTICES.TXT",
-        "lib/net461/System.CodeDom.dll",
+        "buildTransitive/net461/System.CodeDom.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.CodeDom.targets",
+        "lib/net462/System.CodeDom.dll",
+        "lib/net462/System.CodeDom.xml",
+        "lib/net6.0/System.CodeDom.dll",
+        "lib/net6.0/System.CodeDom.xml",
+        "lib/net7.0/System.CodeDom.dll",
+        "lib/net7.0/System.CodeDom.xml",
+        "lib/net8.0/System.CodeDom.dll",
+        "lib/net8.0/System.CodeDom.xml",
         "lib/netstandard2.0/System.CodeDom.dll",
-        "ref/net461/System.CodeDom.dll",
-        "ref/net461/System.CodeDom.xml",
-        "ref/netstandard2.0/System.CodeDom.dll",
-        "ref/netstandard2.0/System.CodeDom.xml",
-        "system.codedom.4.4.0.nupkg.sha512",
+        "lib/netstandard2.0/System.CodeDom.xml",
+        "system.codedom.8.0.0.nupkg.sha512",
         "system.codedom.nuspec",
-        "useSharedDesignerContext.txt",
-        "version.txt"
+        "useSharedDesignerContext.txt"
       ]
     },
     "System.Collections.Immutable/6.0.0": {

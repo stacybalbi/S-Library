@@ -115,6 +115,14 @@
             "FluentValidation.DependencyInjectionExtensions": {
               "target": "Package",
               "version": "[11.10.0, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.10, )"
+            },
+            "System.CodeDom": {
+              "target": "Package",
+              "version": "[8.0.0, )"
             }
           },
           "imports": [

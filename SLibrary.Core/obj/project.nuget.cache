@@ -1,12 +1,23 @@
 {
   "version": 2,
-  "dgSpecHash": "nDV1Ip8zDd2G+z3d3fqULqQAnMvFuayucxzv/7Ne8tmEx2EXZAJ1v8i4wBV/oSrIcvq2XNeGm26+WOmwlaZemQ==",
+  "dgSpecHash": "fychrvUxk86O0XDQ98ZDVq81pStXa4vH88quST1WGUcPkkHhqxwHHnAdMOtdZaHnx+IA/upuinMMc5HUmFW8NA==",
   "success": true,
   "projectFilePath": "/Users/stacybalbi/Projects/S-Library/SLibrary.Core/SLibrary.Core.csproj",
   "expectedPackageFiles": [
     "/Users/stacybalbi/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
-    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore/8.0.10/microsoft.entityframeworkcore.8.0.10.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.abstractions/8.0.10/microsoft.entityframeworkcore.abstractions.8.0.10.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.entityframeworkcore.analyzers/8.0.10/microsoft.entityframeworkcore.analyzers.8.0.10.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.caching.abstractions/8.0.0/microsoft.extensions.caching.abstractions.8.0.0.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.caching.memory/8.0.1/microsoft.extensions.caching.memory.8.0.1.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.dependencyinjection/8.0.1/microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.2/microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.logging/8.0.1/microsoft.extensions.logging.8.0.1.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.logging.abstractions/8.0.2/microsoft.extensions.logging.abstractions.8.0.2.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.options/8.0.2/microsoft.extensions.options.8.0.2.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.primitives/8.0.0/microsoft.extensions.primitives.8.0.0.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }

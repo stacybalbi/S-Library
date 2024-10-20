@@ -6,6 +6,7 @@ using System.Reflection.Emit;
 using SLibrary.Core.Base;
 using SLibrary.DataModel.Context.Extensions;
 using Microsoft.EntityFrameworkCore;
+using SLibrary.DataModel.Entities.SLibrary;
 
 namespace SLibrary.DataModel.Context
 {
@@ -19,6 +20,12 @@ namespace SLibrary.DataModel.Context
     public class MainDbContext : DbContext, IMainDbContext
     {
         public DbSet<T> GetDbSet<T>() where T : EntityBase => Set<T>();
+
+        public DbSet<Autor> Autor { get; set; }
+        public DbSet<Categoria> Categoria { get; set; }
+        public DbSet<Libro> Libro { get; set; }
+        public DbSet<Usuario> Usuario { get; set; }
+
         public MainDbContext(DbContextOptions<MainDbContext> options) : base(options) { }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)

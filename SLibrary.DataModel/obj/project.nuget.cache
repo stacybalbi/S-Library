@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "d8Mb8STQjdw+2oENYS58Nneifz61GMXgFuXuZrD+NTI/hlBY/g0kFQa+LchmO5SJXtUMRyZ6ujVaDGlEXIK4xg==",
+  "dgSpecHash": "H4958dTNB2eLb8Gy9csF6XK1vtYnCmbKgn0Id2MN8qGZ0w+gpTIEAHMkjykPF+MosuBM81ycox5UX4NQJCy7Hw==",
   "success": true,
   "projectFilePath": "/Users/stacybalbi/Projects/S-Library/SLibrary.DataModel/SLibrary.DataModel.csproj",
   "expectedPackageFiles": [
@@ -48,7 +48,7 @@
     "/Users/stacybalbi/.nuget/packages/microsoft.sqlserver.server/1.0.0/microsoft.sqlserver.server.1.0.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/microsoft.win32.systemevents/6.0.0/microsoft.win32.systemevents.6.0.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/mono.texttemplating/2.2.1/mono.texttemplating.2.2.1.nupkg.sha512",
-    "/Users/stacybalbi/.nuget/packages/system.codedom/4.4.0/system.codedom.4.4.0.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/system.codedom/8.0.0/system.codedom.8.0.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/system.collections.immutable/6.0.0/system.collections.immutable.6.0.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/system.composition/6.0.0/system.composition.6.0.0.nupkg.sha512",
     "/Users/stacybalbi/.nuget/packages/system.composition.attributedmodel/6.0.0/system.composition.attributedmodel.6.0.0.nupkg.sha512",
