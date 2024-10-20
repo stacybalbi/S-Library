@@ -11,12 +11,15 @@
 *.sln.docstates
 
 #others
-/bin/
-/obj/
+**/bin/
+**/obj/
 **/*.user
 **/*.rsuser
 **/*.suo
 **/*.cache
+**/*.FileListAbsolute.txt
+**/*.AssemblyReference.cache
+**/*.AssemblyInfoInputs.cache
 **/*.ide
 **/*.ilk
 **/*.log
@@ -115,6 +118,7 @@ StyleCopReport.xml
 *.pidb
 *.svclog
 *.scc
+*.cache
 
 # Chutzpah Test files
 _Chutzpah*
