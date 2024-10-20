@@ -1,0 +1,280 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/stacybalbi/Projects/S-Library/BaseAPI/Base.API.csproj": {}
+  },
+  "projects": {
+    "/Users/stacybalbi/Projects/S-Library/Base.BusinessLayers/Base.BusinessLayers.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stacybalbi/Projects/S-Library/Base.BusinessLayers/Base.BusinessLayers.csproj",
+        "projectName": "Base.BusinessLayers",
+        "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.BusinessLayers/Base.BusinessLayers.csproj",
+        "packagesPath": "/Users/stacybalbi/.nuget/packages/",
+        "outputPath": "/Users/stacybalbi/Projects/S-Library/Base.BusinessLayers/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stacybalbi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj": {
+                "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj"
+              },
+              "/Users/stacybalbi/Projects/S-Library/Base.DataModel/Base.DataModel.csproj": {
+                "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.DataModel/Base.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper.Collection": {
+              "target": "Package",
+              "version": "[10.0.0, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.2, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj",
+        "projectName": "Base.Core",
+        "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj",
+        "packagesPath": "/Users/stacybalbi/.nuget/packages/",
+        "outputPath": "/Users/stacybalbi/Projects/S-Library/Base.Core/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stacybalbi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "FluentValidation.DependencyInjectionExtensions": {
+              "target": "Package",
+              "version": "[11.10.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stacybalbi/Projects/S-Library/Base.DataModel/Base.DataModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stacybalbi/Projects/S-Library/Base.DataModel/Base.DataModel.csproj",
+        "projectName": "Base.DataModel",
+        "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.DataModel/Base.DataModel.csproj",
+        "packagesPath": "/Users/stacybalbi/.nuget/packages/",
+        "outputPath": "/Users/stacybalbi/Projects/S-Library/Base.DataModel/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stacybalbi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj": {
+                "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/stacybalbi/Projects/S-Library/BaseAPI/Base.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/stacybalbi/Projects/S-Library/BaseAPI/Base.API.csproj",
+        "projectName": "Base.API",
+        "projectPath": "/Users/stacybalbi/Projects/S-Library/BaseAPI/Base.API.csproj",
+        "packagesPath": "/Users/stacybalbi/.nuget/packages/",
+        "outputPath": "/Users/stacybalbi/Projects/S-Library/BaseAPI/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/stacybalbi/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/stacybalbi/Projects/S-Library/Base.BusinessLayers/Base.BusinessLayers.csproj": {
+                "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.BusinessLayers/Base.BusinessLayers.csproj"
+              },
+              "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj": {
+                "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.Core/Base.Core.csproj"
+              },
+              "/Users/stacybalbi/Projects/S-Library/Base.DataModel/Base.DataModel.csproj": {
+                "projectPath": "/Users/stacybalbi/Projects/S-Library/Base.DataModel/Base.DataModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

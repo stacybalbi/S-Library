@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "nDV1Ip8zDd2G+z3d3fqULqQAnMvFuayucxzv/7Ne8tmEx2EXZAJ1v8i4wBV/oSrIcvq2XNeGm26+WOmwlaZemQ==",
+  "success": true,
+  "projectFilePath": "/Users/stacybalbi/Projects/S-Library/SLibrary.Core/SLibrary.Core.csproj",
+  "expectedPackageFiles": [
+    "/Users/stacybalbi/.nuget/packages/fluentvalidation/11.10.0/fluentvalidation.11.10.0.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.10.0/fluentvalidation.dependencyinjectionextensions.11.10.0.nupkg.sha512",
+    "/Users/stacybalbi/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+  ],
+  "logs": []
+}

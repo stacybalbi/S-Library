@@ -1,0 +1,38 @@
+﻿<Properties StartupConfiguration="{DFF42017-A471-4DB2-8824-1A7755CFC760}|https">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SLibrary.API FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.SLibrary.Services FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.SLibrary.DataModel FirstBuild="True" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.ItemProperties.SLibrary.BusinessLayers FirstBuild="True" />
+  <MonoDevelop.Ide.Workbench>
+    <Files>
+      <File FileName="../Base.Core/Base/DtoBase.cs" />
+      <File FileName="../Base.Core/Base/IDtoBase.cs" />
+      <File FileName="../Base.Core/Base/IEntityBase.cs" />
+      <File FileName="../Base.Core/Base/EntityBase.cs" />
+      <File FileName="../Base.DataModel/Context/MainDbContext.cs" />
+      <File FileName="../Base.DataModel/Context/Extensions/EntityFrameworkExtensions.cs" />
+      <File FileName="../Base.BusinessLayers/Services/Base/IBaseService.cs" />
+      <File FileName="../Base.BusinessLayers/Services/Base/BaseService.cs" />
+      <File FileName="../Base.Core/Classes/OperationResult.cs" />
+      <File FileName="../Base.Core/Interfaces/IOperationResult.cs" />
+      <File FileName="../Base.BusinessLayers/Services/Base/DataCollection.cs" />
+      <File FileName="../Base.DataModel/Context/Extensions/FluentValidationExtensions.cs" Line="26" Column="27" />
+      <File FileName="Controllers/Base/IBaseController.cs" />
+      <File FileName="Controllers/Base/BaseController.cs" />
+      <File FileName="../Base.BusinessLayers/Base.BusinessLayers.sln" Line="23" Column="56" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__" />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.SLibrary.Testing FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.SLibrary.Core FirstBuild="True" />
+</Properties>
