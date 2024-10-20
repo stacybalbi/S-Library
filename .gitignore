@@ -390,3 +390,6 @@ SLibrary.Core/obj/Debug/net8.0/SLibrary.Core.assets.cache
 SLibrary.Core/obj/Debug/net8.0/SLibrary.Core.csproj.FileListAbsolute.txt
 SLibrary.DataModel/obj/Debug/net8.0/SLibrary.DataModel.assets.cache
 SLibrary.DataModel/obj/Debug/net8.0/SLibrary.DataModel.csproj.FileListAbsolute.txt
+SLibrary.API/obj/Debug/net8.0/SLibrary.API.csproj.AssemblyReference.cache
+SLibrary.BusinessLayers/obj/Debug/net8.0/SLibrary.BusinessLayers.AssemblyInfoInputs.cache
+SLibrary.BusinessLayers/obj/Debug/net8.0/SLibrary.BusinessLayers.csproj.AssemblyReference.cache
