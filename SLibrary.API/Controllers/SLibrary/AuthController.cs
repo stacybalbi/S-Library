@@ -31,7 +31,7 @@ namespace SLibrary.API.Controllers.SLibrary
         }
 
         [HttpPost("login")]
-        public IActionResult Login([FromBody] UsuarioDto loginDto)
+        public IActionResult Login([FromBody] AuthDto loginDto)
         {
             var usuario = ValidarUsuario(loginDto.Email, loginDto.Password);
 

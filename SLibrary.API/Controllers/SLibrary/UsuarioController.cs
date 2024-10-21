@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using SLibrary.BusinessLayers.Dtos.SLibrary;
 using SLibrary.BusinessLayers.Interfaces.SLibrary;
@@ -14,6 +15,7 @@ using SLibrary.DataModel.Entities.SLibrary;
 
 namespace SLibrary.API.Controllers.SLibrary
 {
+    [Authorize(Policy = "RequireAdministratorRole")]
     public class UsuarioController : BaseController<Usuario, UsuarioDto>
     {
         IUsuarioService _service;
@@ -24,6 +26,8 @@ namespace SLibrary.API.Controllers.SLibrary
         {
             _service = service;
         }
+
+        
     }
 }
 
