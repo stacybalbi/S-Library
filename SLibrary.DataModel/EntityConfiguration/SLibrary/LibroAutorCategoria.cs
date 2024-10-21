@@ -13,13 +13,6 @@ namespace SLibrary.DataModel.EntityConfiguration.SLibrary
             builder.HasKey(x => x.Id).HasName("LibroAutorId");
             builder.Property(x => x.Nombre).IsRequired().HasMaxLength(1000);
 
-            builder.HasOne(x => x.Libro)
-                .WithMany(x => x.Autores)
-                .HasForeignKey(x => x.LibroId);
-
-            builder.HasOne(x => x.Tematica)
-                .WithMany()
-                .HasForeignKey(x => x.LibroId);
         }
     }
 }
