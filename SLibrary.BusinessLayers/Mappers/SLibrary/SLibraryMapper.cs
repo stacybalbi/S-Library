@@ -13,6 +13,8 @@ namespace SLibrary.BusinessLayers.Mappers.SLibrary
             CreateMap<Categoria, CategoriaDto>().ReverseMap();
             CreateMap<Libro, LibroDto>().ReverseMap();
             CreateMap<Usuario, UsuarioDto>().ReverseMap();
+
+            CreateMap<Usuario, AuthDto>().ReverseMap();
         }
 	}
 }
