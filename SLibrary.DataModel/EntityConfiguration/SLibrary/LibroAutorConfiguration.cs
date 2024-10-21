@@ -11,7 +11,6 @@ namespace SLibrary.DataModel.EntityConfiguration.SLibrary
         {
             builder.ToTable("LibroAutor");
             builder.HasKey(x => x.Id).HasName("LibroAutorId");
-            builder.Property(x => x.Nombre).IsRequired().HasMaxLength(1000);
 
         }
     }
