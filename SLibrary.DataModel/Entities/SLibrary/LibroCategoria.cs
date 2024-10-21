@@ -1,4 +1,6 @@
 ﻿using System;
+using SLibrary.Core.Base;
+
 namespace SLibrary.DataModel.Entities.SLibrary
 {
 	public class LibroCategoria : EntityBase
