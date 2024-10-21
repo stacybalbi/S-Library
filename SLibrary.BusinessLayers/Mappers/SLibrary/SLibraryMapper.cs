@@ -15,6 +15,9 @@ namespace SLibrary.BusinessLayers.Mappers.SLibrary
             CreateMap<Usuario, UsuarioDto>().ReverseMap();
 
             CreateMap<Usuario, AuthDto>().ReverseMap();
+
+            CreateMap<LibroAutor, LibroAutorDto>().ReverseMap();
+            CreateMap<LibroCategoria, LibroCategoriaDto>().ReverseMap();
         }
 	}
 }

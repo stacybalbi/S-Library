@@ -8,8 +8,8 @@ namespace SLibrary.DataModel.Entities.SLibrary
         public string Titulo { get; set; }
         public string Descripcion { get; set; }
         public DateTime Fecha { get; set; }
-        public ICollection<Autor> Autores { get; set; }
-        public ICollection<Categoria> Categorias { get; set; }
+        public ICollection<LibroAutor> Autores { get; set; }
+        public ICollection<LibroCategoria> Categorias { get; set; }
 
     }
 }

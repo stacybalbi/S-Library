@@ -24,11 +24,15 @@ namespace SLibrary.BusinessLayers
             services.AddTransient<ICategoriaService, CategoriaService>();
             services.AddTransient<ILibroService, LibroService>();
             services.AddTransient<IUsuarioService, UsuarioService>();
+            services.AddTransient<ILibroAutorService, LibroAutorService>();
+            services.AddTransient<ILibroCategoriaService, LibroCategoriaService>();
 
             services.AddTransient<IValidator<Autor>, AutorValidator>();
             services.AddTransient<IValidator<Categoria>, CategoriaValidator>();
             services.AddTransient<IValidator<Libro>, LibroValidator>();
             services.AddTransient<IValidator<Usuario>, UsuarioValidator>();
+            services.AddTransient<IValidator<LibroAutor>, LibroAutorValidator>();
+            services.AddTransient<IValidator<LibroCategoria>, LibroCategoriaValidator>();
 
             services.AddAutoMapper(typeof(SLibraryMapper));
 
