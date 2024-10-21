@@ -1,7 +1,7 @@
 ﻿using System;
 namespace SLibrary.DataModel.Entities.SLibrary
 {
-	public class LibroCategoria
+	public class LibroCategoria : EntityBase
 	{
         public int? LibroId { get; set; }
         public int? CategoriaId { get; set; }
