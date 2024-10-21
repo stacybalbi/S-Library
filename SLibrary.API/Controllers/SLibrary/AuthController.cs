@@ -30,7 +30,7 @@ namespace SLibrary.API.Controllers.SLibrary
             _context = context;
         }
 
-        [HttpPost("login")]
+        [HttpPost("Api/login")]
         public IActionResult Login([FromBody] AuthDto loginDto)
         {
             var usuario = ValidarUsuario(loginDto.Email, loginDto.Password);
