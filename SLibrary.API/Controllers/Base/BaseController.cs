@@ -4,6 +4,7 @@ using System.Net;
 using SLibrary.Core.Base;
 using SLibrary.BusinessLayers.Services.Base;
 using AutoMapper;
+using Microsoft.AspNetCore.Authorization;
 
 namespace SLibrary.Controllers.Base
 {
@@ -48,6 +49,7 @@ namespace SLibrary.Controllers.Base
         }
 
         // POST api/values/
+        [Authorize]
         [HttpPost]
         public virtual async Task<IActionResult> Post([FromBody] TDto dto)
         {
@@ -74,6 +76,7 @@ namespace SLibrary.Controllers.Base
             return Ok(result);
         }
 
+        [Authorize]
         [HttpPut("{key}")]
         public virtual async Task<IActionResult> Put(int key, [FromBody] TDto dto)
         {
@@ -101,6 +104,7 @@ namespace SLibrary.Controllers.Base
             return BadRequest(result);
         }
 
+        [Authorize]
         [HttpDelete("{key}")]
         public virtual async Task<IActionResult> Delete(int key)
         {
