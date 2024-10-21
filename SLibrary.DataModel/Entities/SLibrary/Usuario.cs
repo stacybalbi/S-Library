@@ -7,6 +7,7 @@ namespace SLibrary.DataModel.Entities.SLibrary
     public class Usuario : EntityBase
     {
         public string Email { get; set; }
+        public string Password {get; set;}
         public Rol rol { get; set; }
     }
 }
